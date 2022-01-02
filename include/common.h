@@ -10,4 +10,6 @@
 #include <stdint.h>
 #include "CloxConfig.h"
 
+#define DEBUG_TRACE_EXECUTION
+
 #endif //CLOX_COMMON_H
