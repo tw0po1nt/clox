@@ -5,7 +5,7 @@ set(CMAKE_C_STANDARD 11)
 
 configure_file(./include/CloxConfig.h.in CloxConfig.h)
 
-add_executable(clox src/main.c src/chunk.c src/memory.c src/debug.c src/value.c src/vm.c)
+add_executable(clox src/main.c src/chunk.c src/memory.c src/debug.c src/value.c src/vm.c src/compiler.c src/scanner.c)
 
 target_include_directories(clox PUBLIC
     "${PROJECT_BINARY_DIR}"
